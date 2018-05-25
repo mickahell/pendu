@@ -21,7 +21,7 @@ int dicoMot (char *motDico){
     
     
     FILE* dico = NULL;
-    dico = fopen("/Users/Mickahell/Documents/Xcode/OpenClassroom/pendu/pendu/dico.txt", "r");
+    dico = fopen("dico.txt", "r");
     if (dico != NULL){
         do{
             caractereLu = fgetc(dico);
