@@ -56,7 +56,7 @@ int main(int argc, char* argv[]){
         }
         else{
                 FILE* dico = NULL;
-                dico = fopen("/Users/Mickahell/Documents/Xcode/OpenClassroom/secondOne/secondOne/dico.txt", "r");
+                dico = fopen("dico.txt", "r");
                 if (dico != NULL){
                     do{
                         caractereLu = fgetc(dico);
